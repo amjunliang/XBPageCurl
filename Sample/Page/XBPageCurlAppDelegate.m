@@ -8,13 +8,13 @@
 
 #import "XBPageCurlAppDelegate.h"
 #import "RootViewController.h"
+#import "PageCurlViewController.h"
 
 @implementation XBPageCurlAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSString *nibName = UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad? @"RootViewController_iPad": @"RootViewController_iPhone";
-    RootViewController *rootViewController = [[RootViewController alloc] initWithNibName:nibName bundle:nil];
+    UIViewController *rootViewController = [[PageCurlViewController alloc] initWithNibName:@"PageCurlViewController_iPhone" bundle:nil];
 
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
     

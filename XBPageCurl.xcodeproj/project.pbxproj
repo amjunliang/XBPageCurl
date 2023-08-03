@@ -15,7 +15,6 @@
 		1B50A0B31D4577CF00E71774 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B50A0B21D4577CF00E71774 /* Images.xcassets */; };
 		1B81C2FD14A8B4D600353F62 /* XBSnappingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B81C2FC14A8B4D600353F62 /* XBSnappingPoint.m */; };
 		1B8742B814CD038D00BCADCF /* CGPointAdditions.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B8742B714CD038D00BCADCF /* CGPointAdditions.c */; };
-		1B8742C014CD07DA00BCADCF /* PageCurlViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B8742BE14CD07DA00BCADCF /* PageCurlViewController_iPhone.xib */; };
 		1B8816A61401E4F000D579EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8816A51401E4F000D579EF /* UIKit.framework */; };
 		1B8816A81401E4F000D579EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8816A71401E4F000D579EF /* Foundation.framework */; };
 		1B8816AA1401E4F000D579EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8816A91401E4F000D579EF /* CoreGraphics.framework */; };
@@ -38,7 +37,6 @@
 		1B8BC4331429866F0048682B /* XBCurlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8BC41C1429866F0048682B /* XBCurlView.m */; };
 		1B8BC4341429866F0048682B /* XBPageCurlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8BC41E1429866F0048682B /* XBPageCurlView.m */; };
 		1BD79F091580517A00B19785 /* XBPageDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD79F081580517A00B19785 /* XBPageDragView.m */; };
-		1BE340FE14D4897C00261AF5 /* RootViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BE340FC14D4897C00261AF5 /* RootViewController_iPhone.xib */; };
 		1BE340FF14D4897C00261AF5 /* SimpleCurlViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BE340FD14D4897C00261AF5 /* SimpleCurlViewController_iPhone.xib */; };
 		1BE3410314D48E5900261AF5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE3410214D48E5900261AF5 /* MapKit.framework */; };
 		1BE3410614D4A9ED00261AF5 /* PageCurlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3410514D4A9ED00261AF5 /* PageCurlViewController.m */; };
@@ -46,6 +44,7 @@
 		1BE68CC01594B6D600DD54B5 /* BackPageGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE68CBF1594B6D600DD54B5 /* BackPageGradient.png */; };
 		1BF8827B1445DBAA003F7920 /* NextPageNoTextureFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 1BF882791445DBAA003F7920 /* NextPageNoTextureFragmentShader.glsl */; };
 		1BF8827C1445DBAA003F7920 /* NextPageNoTextureVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 1BF8827A1445DBAA003F7920 /* NextPageNoTextureVertexShader.glsl */; };
+		2B898C752A7C013C00F9C03A /* PageCurlViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B898C742A7C013C00F9C03A /* PageCurlViewController_iPhone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +59,6 @@
 		1B81C2FC14A8B4D600353F62 /* XBSnappingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSnappingPoint.m; sourceTree = "<group>"; };
 		1B8742B714CD038D00BCADCF /* CGPointAdditions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGPointAdditions.c; sourceTree = "<group>"; };
 		1B8742BB14CD04CC00BCADCF /* CGPointAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointAdditions.h; sourceTree = "<group>"; };
-		1B8742BE14CD07DA00BCADCF /* PageCurlViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageCurlViewController_iPhone.xib; sourceTree = "<group>"; };
 		1B8816A11401E4F000D579EF /* XBPageCurl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBPageCurl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8816A51401E4F000D579EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1B8816A71401E4F000D579EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,7 +93,6 @@
 		1B8C27411415C8D60081F180 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "../gh-unit/Project-iOS/build/Framework/GHUnitIOS.framework"; sourceTree = "<group>"; };
 		1BD79F071580517A00B19785 /* XBPageDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBPageDragView.h; sourceTree = "<group>"; };
 		1BD79F081580517A00B19785 /* XBPageDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBPageDragView.m; sourceTree = "<group>"; };
-		1BE340FC14D4897C00261AF5 /* RootViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController_iPhone.xib; sourceTree = "<group>"; };
 		1BE340FD14D4897C00261AF5 /* SimpleCurlViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCurlViewController_iPhone.xib; sourceTree = "<group>"; };
 		1BE3410214D48E5900261AF5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1BE3410414D4A9ED00261AF5 /* PageCurlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageCurlViewController.h; sourceTree = "<group>"; };
@@ -105,6 +102,7 @@
 		1BE68CBF1594B6D600DD54B5 /* BackPageGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackPageGradient.png; sourceTree = "<group>"; };
 		1BF882791445DBAA003F7920 /* NextPageNoTextureFragmentShader.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = NextPageNoTextureFragmentShader.glsl; sourceTree = "<group>"; };
 		1BF8827A1445DBAA003F7920 /* NextPageNoTextureVertexShader.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = NextPageNoTextureVertexShader.glsl; sourceTree = "<group>"; };
+		2B898C742A7C013C00F9C03A /* PageCurlViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageCurlViewController_iPhone.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				1B8BC3F61429866F0048682B /* Sample */,
-				1B8BC4111429866F0048682B /* XBPageCurl */,
 				1B8816A41401E4F000D579EF /* Frameworks */,
 				1B8816A21401E4F000D579EF /* Products */,
 			);
@@ -159,35 +156,12 @@
 		1B8BC3F61429866F0048682B /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				1B8BC40F1429866F0048682B /* XBPageCurlAppDelegate.h */,
-				1B8BC4101429866F0048682B /* XBPageCurlAppDelegate.m */,
-				1BE4628314677E160013C1C6 /* RootViewController.h */,
-				1BE4628414677E160013C1C6 /* RootViewController.m */,
-				1B8BC4071429866F0048682B /* SimpleCurlViewController.h */,
-				1B8BC4081429866F0048682B /* SimpleCurlViewController.m */,
-				1BE3410414D4A9ED00261AF5 /* PageCurlViewController.h */,
-				1BE3410514D4A9ED00261AF5 /* PageCurlViewController.m */,
-				1B35688E16E92D7C00A877E6 /* MultipleViewController.h */,
-				1B35688F16E92D7C00A877E6 /* MultipleViewController.m */,
-				1B8BC3FE1429866F0048682B /* iPhone */,
+				2B898C732A7C010000F9C03A /* Page */,
+				2B2DB38C2A7C003C00F60722 /* Main */,
 				1B8BC4351429875B0048682B /* Supporting Files */,
 				1B8BC4041429866F0048682B /* Resources */,
 			);
 			path = Sample;
-			sourceTree = "<group>";
-		};
-		1B8BC3FE1429866F0048682B /* iPhone */ = {
-			isa = PBXGroup;
-			children = (
-				1B8BC4011429866F0048682B /* XBPageCurlAppDelegate_iPhone.h */,
-				1B8BC4021429866F0048682B /* XBPageCurlAppDelegate_iPhone.m */,
-				1B8BC3FF1429866F0048682B /* MainWindow_iPhone.xib */,
-				1BE340FC14D4897C00261AF5 /* RootViewController_iPhone.xib */,
-				1BE340FD14D4897C00261AF5 /* SimpleCurlViewController_iPhone.xib */,
-				1B8742BE14CD07DA00BCADCF /* PageCurlViewController_iPhone.xib */,
-				1B35689116E92DC100A877E6 /* MultipleViewController_iPhone.xib */,
-			);
-			path = iPhone;
 			sourceTree = "<group>";
 		};
 		1B8BC4041429866F0048682B /* Resources */ = {
@@ -248,6 +222,37 @@
 				1B8BC3F71429866F0048682B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B2DB38C2A7C003C00F60722 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1B8BC3FF1429866F0048682B /* MainWindow_iPhone.xib */,
+				1B35689116E92DC100A877E6 /* MultipleViewController_iPhone.xib */,
+				1B35688E16E92D7C00A877E6 /* MultipleViewController.h */,
+				1B35688F16E92D7C00A877E6 /* MultipleViewController.m */,
+				1BE4628314677E160013C1C6 /* RootViewController.h */,
+				1BE4628414677E160013C1C6 /* RootViewController.m */,
+				1BE340FD14D4897C00261AF5 /* SimpleCurlViewController_iPhone.xib */,
+				1B8BC4071429866F0048682B /* SimpleCurlViewController.h */,
+				1B8BC4081429866F0048682B /* SimpleCurlViewController.m */,
+				1B8BC4011429866F0048682B /* XBPageCurlAppDelegate_iPhone.h */,
+				1B8BC4021429866F0048682B /* XBPageCurlAppDelegate_iPhone.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2B898C732A7C010000F9C03A /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				1B8BC4111429866F0048682B /* XBPageCurl */,
+				1B8BC40F1429866F0048682B /* XBPageCurlAppDelegate.h */,
+				1B8BC4101429866F0048682B /* XBPageCurlAppDelegate.m */,
+				1BE3410414D4A9ED00261AF5 /* PageCurlViewController.h */,
+				1BE3410514D4A9ED00261AF5 /* PageCurlViewController.m */,
+				2B898C742A7C013C00F9C03A /* PageCurlViewController_iPhone.xib */,
+			);
+			path = Page;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,12 +319,11 @@
 				1B8BC42D1429866F0048682B /* BackFragmentShader.glsl in Resources */,
 				1B8BC42E1429866F0048682B /* NextPageFragmentShader.glsl in Resources */,
 				1B8BC42F1429866F0048682B /* NextPageVertexShader.glsl in Resources */,
+				2B898C752A7C013C00F9C03A /* PageCurlViewController_iPhone.xib in Resources */,
 				1B8BC4301429866F0048682B /* BackVertexShader.glsl in Resources */,
 				1B50A0AF1D45777100E71774 /* LaunchScreen.storyboard in Resources */,
 				1BF8827B1445DBAA003F7920 /* NextPageNoTextureFragmentShader.glsl in Resources */,
 				1BF8827C1445DBAA003F7920 /* NextPageNoTextureVertexShader.glsl in Resources */,
-				1B8742C014CD07DA00BCADCF /* PageCurlViewController_iPhone.xib in Resources */,
-				1BE340FE14D4897C00261AF5 /* RootViewController_iPhone.xib in Resources */,
 				1BE340FF14D4897C00261AF5 /* SimpleCurlViewController_iPhone.xib in Resources */,
 				1BE68CC01594B6D600DD54B5 /* BackPageGradient.png in Resources */,
 				1B1E9EFB1596987B00B69139 /* FrontFragmentShader.glsl in Resources */,

@@ -94,7 +94,8 @@
     
     NSTimeInterval duration = animated? kDuration: 0;
     CGFloat a = CLAMP(angle, self.minimumCylinderAngle, self.maximumCylinderAngle);
-    [self setCylinderPosition:c cylinderAngle:a cylinderRadius:r animatedWithDuration:duration];
+    NSLog(@"setCylinderPosition (%.1f,%.1f),(%.1f,%.1f)",p.x,p.y,c.x,c.y);
+    [self setCylinderPosition:c cylinderAngle:M_PI_2 cylinderRadius:r animatedWithDuration:duration];
 }
 
 - (void)touchBeganAtPoint:(CGPoint)p

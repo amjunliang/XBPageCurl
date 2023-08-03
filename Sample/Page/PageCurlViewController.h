@@ -15,14 +15,9 @@
 @property (nonatomic, weak) IBOutlet MKMapView *mapView;
 @property (nonatomic, weak) IBOutlet UIView *frontView;
 @property (nonatomic, weak) IBOutlet UIView *backView;
-@property (nonatomic, weak) IBOutlet XBPageDragView *pageDragTopLeftView;
-@property (nonatomic, weak) IBOutlet XBPageDragView *pageDragBottomRightView;
 
 - (IBAction)buttonAction:(id)sender;
-- (IBAction)backButtonAction:(id)sender;
 - (IBAction)standardButtonAction:(id)sender;
 - (IBAction)satelliteButtonAction:(id)sender;
 - (IBAction)hybridButtonAction:(id)sender;
-- (IBAction)saveImageButtonAction:(id)sender;
-
 @end
